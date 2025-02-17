@@ -1,5 +1,3 @@
-#!/usr/bin/env python2.7
-
 # Will Fritz
 # 12/4/2017
 # Using Euler's Method to approcximate y(1) if the following IVP:
@@ -31,13 +29,13 @@ w = y0
 for i in range(1, n):
     y[i] = h*(f(0,w)) + w
     w = y[i]
-    print "w({}) = {}".format(i, y[i])
+    print("w({}) = {}".format(i, y[i]))
 
 yApprox = y[-1]
 yExact = -3*math.exp(-0.1*(1))+3
 
-print "\nApproximation for y(1) with h = 0.2:   y(1) = {}".format(yApprox)
-print "Exact y(1):   y(1) = {}".format(yExact)
+print("\nApproximation for y(1) with h = 0.2:   y(1) = {}".format(yApprox))
+print("Exact y(1):   y(1) = {}".format(yExact))
 
-print "\nRelative accuracy: abs((yApprox - yExact)/yExact)"
-print "Relative accuracy = {}".format(abs((yApprox - yExact)/yExact))
+print("\nRelative accuracy: abs((yApprox - yExact)/yExact)")
+print("Relative accuracy = {}".format(abs((yApprox - yExact)/yExact)))
