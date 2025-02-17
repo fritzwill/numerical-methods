@@ -1,6 +1,6 @@
-# Scripts to solve Initital Value Problems Using Numerical Analysis
+# Scripts Demonstrating Numerical Methods
 
-**Note: Each script contains an example IVP to solve for but the scripts can be edited to solve other IVPs**
+**Note: Scripts contain an example IVP/integral to solve for but the scripts can be edited to solve other IVPs/integrals**
 
 euler.py : Uses Euler's Method to approximate y(1) of a function
 
