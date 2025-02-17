@@ -1,4 +1,4 @@
-# Scripts to solve Initital Value Problems using NUmerical Analysis
+# Scripts to solve Initital Value Problems Using Numerical Analysis
 
 **Note: Each script contains an example IVP to solve for but the scripts can be edited to solve other IVPs**
 
