@@ -23,7 +23,7 @@ Uses Runge Kutta Method of order 4 to approximate y(1) of a function
 ```
 $ python ./rungeKuttaMethod4.py
 ```
-## Simpson's Method (simpsons.py)
+## Simpson's Rule (simpsons.py)
 Uses the composite Simpson rule to approximate the solution to an interval (contains example in script)
 
 ### How to run
