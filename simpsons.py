@@ -38,6 +38,6 @@ for n in range(2, 10000, 2):
     if absError < 10**-10:
         break
 
-print "The approximation for the integral is: {}".format(xI)
-print "The exact value for the integral is: {}".format(exactValue)
-print "The h value of {} gave an actual error of: {}".format(h, absError)
+print("The approximation for the integral is: {}".format(xI))
+print("The exact value for the integral is: {}".format(exactValue))
+print("The h value of {} gave an actual error of: {}".format(h, absError))

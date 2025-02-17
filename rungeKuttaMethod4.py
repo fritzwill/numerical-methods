@@ -36,13 +36,13 @@ for i in range(1, n):
     
     w = w + (k1 + 2*k2 + 2*k3 + k4)/6
     y[i] = w
-    print "w({}) = {}".format(i, w)
+    print("w({}) = {}".format(i, w))
 
 yApprox = y[-1]
 yExact = -3*math.exp(-0.1*(1))+3
 
-print "\nApproximation for y(1) with h = 0.2:   y(1) = {}".format(yApprox)
-print "Exact y(1):   y(1) = {}".format(yExact)
+print("\nApproximation for y(1) with h = 0.2:   y(1) = {}".format(yApprox))
+print("Exact y(1):   y(1) = {}".format(yExact))
 
-print "\nRelative accuracy: abs((yApprox - yExact)/yExact)"
-print "Relative accuracy = {}".format(abs((yApprox - yExact)/yExact))
+print("\nRelative accuracy: abs((yApprox - yExact)/yExact)")
+print("Relative accuracy = {}".format(abs((yApprox - yExact)/yExact)))
